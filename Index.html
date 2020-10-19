@@ -5,6 +5,8 @@
     <title>Ukulele Mobile Chord Chart</title>
   </head>
   <body>
+    <img id='chordId' src="C.png" alt="Shows C Chord">
+
     <label for="Chord"> Choose a Chord: </label>
 
     <select name="Chord" id="Chord">
@@ -44,8 +46,83 @@
         <option value="Am7">Am7</option>
         <option value="Bm7">Bm7</option>
         </select>
-  <<script type="text/javascript">
-
+        <div id= C>
+  <script>
+  function updateImg()  {
+  var img = document.getElementById('Chord').value
+  console.log(img)
+  if (img=="C"){
+    document.getElementById('chordId').src='C.PNG'
+  }else if (img=="D") {
+    document.getElementById('chordId').src='D.PNG'
+  }else if (img=="E") {
+    document.getElementById('chordId').src='E.PNG'
+  }else if (img=="F") {
+    document.getElementById('chordId').src='F.PNG'
+  }else if (img=="G") {
+    document.getElementById('chordId').src='G.PNG'
+  }else if (img=="A") {
+    document.getElementById('chordId').src='A.PNG'
+  }else if (img=="B") {
+    document.getElementById('chordId').src='B.PNG'
+  }else if (img=="Cm") {
+    document.getElementById('chordId').src='Cm.PNG'
+  }else if (img=="Dm") {
+    document.getElementById('chordId').src='Dm.PNG'
+  }else if (img=="Em") {
+    document.getElementById('chordId').src='Em.PNG'
+  }else if (img=="Fm") {
+    document.getElementById('chordId').src='Fm.PNG'
+  }else if (img=="Gm") {
+    document.getElementById('chordId').src='Gm.PNG'
+  }else if (img=="Am") {
+    document.getElementById('chordId').src='Am.PNG'
+  }else if (img=="Bm") {
+    document.getElementById('chordId').src='Bm.PNG'
+  }else if (img=="C7") {
+    document.getElementById('chordId').src='C7.PNG'
+  }else if (img=="D7") {
+    document.getElementById('chordId').src='D7.PNG'
+  }else if (img=="E7") {
+    document.getElementById('chordId').src='E7.PNG'
+  }else if (img=="F7") {
+    document.getElementById('chordId').src='F7.PNG'
+  }else if (img=="G7") {
+    document.getElementById('chordId').src='G7.PNG'
+  }else if (img=="A7") {
+    document.getElementById('chordId').src='A7.PNG'
+  }else if (img=="B7") {
+    document.getElementById('chordId').src='B7.PNG'
+  }else if (img=="Cmaj7") {
+    document.getElementById('chordId').src='Cmaj7.PNG'
+  }else if (img=="Dmaj7") {
+    document.getElementById('chordId').src='Dmaj7.PNG'
+  }else if (img=="Emaj7") {
+    document.getElementById('chordId').src='Emaj7.PNG'
+  }else if (img=="Fmaj7") {
+    document.getElementById('chordId').src='Fmaj7.PNG'
+  }else if (img=="Gmaj7") {
+    document.getElementById('chordId').src='Gmaj7.PNG'
+  }else if (img=="Amaj7") {
+    document.getElementById('chordId').src='Amaj7.PNG'
+  }else if (img=="Bmaj7") {
+    document.getElementById('chordId').src='Bmaj7.PNG'
+  }else if (img=="Cm7") {
+    document.getElementById('chordId').src='Cm7.PNG'
+  }else if (img=="Dm7") {
+    document.getElementById('chordId').src='Dm7.PNG'
+  }else if (img=="Em7") {
+    document.getElementById('chordId').src='Em7.PNG'
+  }else if (img=="Fm7") {
+    document.getElementById('chordId').src='Fm7.PNG'
+  }else if (img=="Gm7") {
+    document.getElementById('chordId').src='Gm7.PNG'
+  }else if (img=="Am7") {
+    document.getElementById('chordId').src='Am7.PNG'
+  }else if (img=="Bm7") {
+    document.getElementById('chordId').src='Bm7.PNG'
+  }
+  }
   </script>
   </body>
 </html>
