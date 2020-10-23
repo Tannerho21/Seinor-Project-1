@@ -5,3 +5,10 @@ body{
 img {
   width: 100%;
 }
+label {
+  word-spacing: 5px;
+  font-size: 30px;
+}
+select{
+  width: 100px;
+}
