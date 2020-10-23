@@ -3,11 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Ukulele Mobile Chord Chart</title>
+    <link rel="stylesheet" href="ukalele.css">
   </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Allows for the page to be better suted for a phone  -->
   <body>
     <img id='chordId' src="C.png" alt="Shows C Chord">
 
-    <label for="Chord"> Choose a Chord: </label>
+    <label for="Chord">Choose a Chord: </label>
 
     <select onchange="updateImg()" name="Chord" id="Chord">
         <option value="C">C</option>
@@ -120,12 +123,10 @@
     document.getElementById('chordId').src='Gm7.PNG'
   }else if (img=="Am7") {
     document.getElementById('chordId').src='Am7.PNG'
-  }else if (img=="Bm7") {
+  }else if  (img=="Bm7") {
     document.getElementById('chordId').src='Bm7.PNG'
   }// Selects an img based on the value of img
-}
-
-//updates the image
+}//updates the image
   </script>
   </body>
 </html>
